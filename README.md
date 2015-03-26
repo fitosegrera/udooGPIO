@@ -3,22 +3,30 @@ Python Library with arduino-like syntax to use the GPIOs from the UDOO board. No
 
 ###Dependencies
 1. pyserial - install it with the following terminal command
-	sudo pip install pyserial
+	
+		sudo pip install pyserial
 
 ###Instructions
 1. Download or clone the repository
+
 2. Go into the repository folder you just downloaded:
-	cd udooGPIO
+
+		cd udooGPIO
+
 3. Connect an led with the anode (+) to GPIO 3 (arduino's pin 12) and the cathode (-) to ground
+
 4. run the example script:
-	python example.py
+
+		python example.py
 
 IMPORTANT NOTE: Make sure your arduino chip in the udoo has no code uploaded. You might wat to upload an empty scketch to it using the arduinoIDE
 
 ###API Reference
 
 1. Declaring pin mode:
-	pinMode(PIN, DIRECTION):
+
+		pinMode(PIN, DIRECTION):
+
 PIN: pin number (must be an integer)
 DIRECTION: "INPUT" or "OUTPUT" (must be a string)
 
