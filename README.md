@@ -59,7 +59,8 @@ BAUD: Baudrate for serial interfacing (ei. 9600, 11500, etc...)
 
 DATA: Data to write (Recomended char or byte)
 
-__IMPORTANT NOTE:__ In order to use the serial functions of the library you will need to upload a basic code to your arduino chip:
+__IMPORTANT NOTE:__ In order to use the serial functions of the library you will need to upload a basic code to your arduino chip
+then run the "example-serial.py" contained in the folder:
 
 		int led = 12;
 		char inChar;
