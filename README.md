@@ -14,6 +14,7 @@ Python Library with arduino-like syntax to use the GPIOs from the UDOO board. No
 		cd udooGPIO
 
 3. Connect an led with the anode (+) to GPIO 3 (arduino's pin 12) and the cathode (-) to ground
+For more information about udoo's GPIOs layout check: [LINK](http://udoo.org/download/files/pinout/Udoo_pinout_diagram.pdf)
 
 4. run the example script:
 
