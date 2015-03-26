@@ -23,11 +23,17 @@ PIN: pin number (must be an integer)
 DIRECTION: "INPUT" or "OUTPUT" (must be a string)
 
 2. Digital Write:
+
 	digitalWrite(PIN, VALUE)
+
 PIN: pin number (must be an integer)
+
 VALUE: "HIGH" or "LOW" (must be a string)
 
 3. Digital Read:
+
 	digitalRead(PIN)
+
 PIN: pin number (must be an integer)
+
 returns the value read, either 1 or 0
